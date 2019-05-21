@@ -9,7 +9,8 @@ public class Bank {
        accounts[0] = new Account("A01", 100) ;
        accounts[1] = new Account("A02", 200) ;
        */
-       accounts = { (new Account("A01", 100) ), (new Account("A02", 200) )};
+    Account[ ] accounts = { new Account("A01", 100) , new Account("A02", 200) };   
+    
 }
     public Account getAccount(String id ) {
         for (Account ac : accounts) {
@@ -20,7 +21,8 @@ public class Bank {
             }
         }
         return null ;
-        }
+        
+    }
     public void display () {
         System.out.println("--銀行帳戶資訊--");
         for (Account ac2 : accounts) {
