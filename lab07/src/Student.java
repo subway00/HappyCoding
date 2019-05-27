@@ -13,9 +13,9 @@ public class Student {
         name = "未設定" ;
         scores = new ArrayList() ;
         subjects = new ArrayList() ;
+        /*scores.add(0);
         scores.add(0);
-        scores.add(0);
-        scores.add(0);
+        scores.add(0);*/
         subjects.add(chinese);
         subjects.add(English);
         subjects.add(math);
@@ -35,7 +35,7 @@ public class Student {
         if (index<0) {
             System.out.printf("查無科目名稱: %s%n", subject);
         }
-        scores.set(index, score);
+        scores.add(index, score);
     }
     public void displayInfo() {
         StringBuilder sb = new StringBuilder();

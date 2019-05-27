@@ -24,7 +24,7 @@ public class Arraylist {
         
         System.out.println("查索引資料");
         obj = "watermelonmelon";
-        index = a.indexOf(obj); //indexof()查詢陣列資料並傳回所在的索引值，若無則傳回1。
+        index = a.indexOf(obj); //indexof()查詢陣列資料並傳回所在的索引值，若無則傳回-1。
         System.out.printf("obj :%s index:%d%n", obj ,index);
         
         System.out.println("----刪除索引資料----");

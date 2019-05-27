@@ -1,9 +1,9 @@
+
 public class GameTest {
-   public static void main(String[] args) {
-   Game game = new Game();
-   game.choose();
-   System.out.println(game.countTimes());
-   game.display();
-   game.find();
-}
+
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.display();
+        game.find();
+    }
 }
