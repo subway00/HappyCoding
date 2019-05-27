@@ -5,10 +5,18 @@
  */
 package Collection;
 
-/**
- *
- * @author User
- */
+import java.util.*;
+import static java.lang.System.out;
+
 public class Guest {
-    
+    public static void main(String[] args) {
+        List names = new ArrayList();
+        collectNameTo(names);
+    }
+    static void collectNameTo(List name) {
+        Scanner console = new Scanner(System.in);
+        while (true) {
+            
+        }
+    }
 }
