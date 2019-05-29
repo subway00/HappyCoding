@@ -1,14 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Exception;
 
-/**
- *
- * @author pig94
- */
+import java.util.Scanner;
+
 public class Average4 {
-    
+    public static void main(String[] args) {
+        double sum = 0;
+        int count = 0;
+        while (true) {            
+            int number = nextInt();
+            if (number == 0) {
+                break;
+            }
+            sum += number;
+            count ++;
+        }
+    }
+    static Scanner console = new Scanner(System.in);
+    static int nextInt() {
+        String input = console.next();
+        while( !input.matches("\\d*")) {
+            System.out.println("請輸入數字");
+            input = console.next();
+        }
+        return Integer.parseInt(input);
+    }
 }

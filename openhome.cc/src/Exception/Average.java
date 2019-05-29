@@ -9,7 +9,7 @@ public class Average {
         double sum=0;
         int count=0;
         //try {
-        //int ch = System.in.read();  //read()會拋出IOException.
+        int ch = System.in.read();  //read()會拋出IOException.
         while (true) {
             int number = console.nextInt();
             if (number == 0) {
