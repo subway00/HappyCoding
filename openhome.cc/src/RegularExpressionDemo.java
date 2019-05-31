@@ -1,6 +1,6 @@
 public class RegularExpressionDemo {
     public static void main(String[] args) {
-    String text = "abcdebcadxbc  bty cyy yyy zzz";
+    String text = "abcdebcadxbc bty cyy yyy zzz";
     
     /*String [] tokens = text.split(".bc");
     for (String token : tokens) {
