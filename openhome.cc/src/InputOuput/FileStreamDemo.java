@@ -7,7 +7,7 @@ public class FileStreamDemo {
         try {
             byte [] buffer = new byte[1024] ;
             FileInputStream fileInputStream = new FileInputStream(new File(args[0]));
-            FileOutputStream fileOutputStream = new FileOutputStream(new File(args[0]));
+            FileOutputStream fileOutputStream = new FileOutputStream(new File(args[1]));
             
             System.out.println("複製檔案" + fileInputStream.available() + "位元組");
             
