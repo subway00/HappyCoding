@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 public class Student {
     private String name;
@@ -29,14 +29,17 @@ public class Student {
         this.name = name;
         }
     public void setScores(String subject, int score) {
-        int index = subjects.indexOf(subject);//查詢subject在subjects陣列第幾項
+       int index = subjects.indexOf(subject);//查詢subject在subjects陣列第幾項
 //subjects & scores 為兩陣列。使scores存放的資料按subjects的索引位置存放。
 //ex: subjects[0]為國文 ， 而 scores[0]則對應存放為國文成績。
         if (index<0) {
             System.out.printf("查無科目名稱: %s%n", subject);
         }
         scores.add(index, score);
+  
+    
     }
+
     public void displayInfo() {
         StringBuilder sb = new StringBuilder();
         sb.append(name);
