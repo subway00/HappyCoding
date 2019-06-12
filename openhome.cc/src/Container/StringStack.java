@@ -9,6 +9,7 @@ public class StringStack {
         linkedList = new LinkedList<String>();
     }
     public void push(String name) {
+        //將元素加入串列前端
         linkedList.addFirst(name);
     }
     public String top() {
