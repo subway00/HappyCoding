@@ -33,9 +33,9 @@ public class Student {
         Set<String> keys;
         keys = scores.keySet();
         Collection<Integer> values;
-        values = scores.values();
+        values = scores.values();                           //map.values()返回一個實作Collection的物件,其含所有的"值".
 
-        for (String s : keys) {
+        for (String s : keys) {                             //enhanced for loop 並不是陣列的走訪,而是container走訪
          //   arr1.add(s);
             sb.append(s).append("  ").append(scores.get(s)).append("  ");
         }

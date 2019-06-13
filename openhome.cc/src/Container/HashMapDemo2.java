@@ -11,6 +11,8 @@ public class HashMapDemo2 {
         for (String value : map.values()) {
             System.out.println(value);
         }
+        Collection collection = map.values();
+        Iterator iterator = collection.iterator();
             
     }
 }
