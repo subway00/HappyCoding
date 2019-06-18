@@ -10,7 +10,7 @@ public class GuessNumber {
         Random ran = new Random();
         HashSet<Integer> set = new HashSet<>();
         StringBuilder sb = new StringBuilder();
-        String com = "";
+        String com;
         int countA = 0;
         int countB = 0;
         
@@ -26,17 +26,15 @@ public class GuessNumber {
             sb.append(str);
         }
         com = sb.toString();
-        System.out.println(com);
-        //System.out.println(set);
-
+        System.out.println(sb.toString());
         String input = JOptionPane.showInputDialog(null, "請輸入4位數字");
         if (input.equals(com)) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
         }
-        int a = input.compareTo(com);
         
+        //number of A
         char [] youNum = input.toCharArray();
         char [] comNum = com.toCharArray();
         for ( int i=0 ; i<=3 ; i++) {
@@ -44,9 +42,9 @@ public class GuessNumber {
                 countA++;
             }
         }
-        
         System.out.println(countA + "A");
         
+        //number of B
         for ( int i =0 ; i<=3 ; i++) {
             char c1 = youNum[i];
             for ( int j=0 ; j<=3 ; j++) {
