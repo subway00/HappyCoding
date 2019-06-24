@@ -16,7 +16,7 @@ public class Account {
                 }
         }
         */
-        public void deposit (int money) throws InsufficinetException {
+        public void deposit (int money)  {
             assert money >= 0 : "存款失敗" ;
             if (money > 0) {
                         balance += money;

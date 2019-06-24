@@ -33,4 +33,7 @@ public class Game {
         }
         System.out.printf("剪刀次數 %d, 石頭次數 %d , 布次數 %d ", num1, num2, num3);
     }
+    public void timesArray () {
+        
+    }
 }
