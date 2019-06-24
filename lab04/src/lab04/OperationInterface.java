@@ -155,7 +155,7 @@ public class OperationInterface {
                 return s2;
 
         }
-
+      
         private void setdeposit() {
                 String money = JOptionPane.showInputDialog(null, "請輸入存款金額");
                 int m1 = Integer.parseInt(money);
@@ -166,6 +166,8 @@ public class OperationInterface {
                         cus.acc2.deposit(m1);
                 }
         }
+     
+   
 
         private void setwithdrawl() {
                 String money = JOptionPane.showInputDialog(null, "請輸入提款金額");
