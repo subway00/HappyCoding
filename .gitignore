@@ -12,6 +12,7 @@
 /lab11/build/
 /lab12/nbproject/private/
 /lab12/build/
+<<<<<<< Updated upstream
 /Lab_01/nbproject/private/
 /Lab_01/build/
 /Lab_03/nbproject/private/
@@ -24,3 +25,7 @@
 /Lab_05/build/
 /Lab_06/nbproject/private/
 /Lab_06/build/
+=======
+/Test/nbproject/private/
+/Test/build/
+>>>>>>> Stashed changes
