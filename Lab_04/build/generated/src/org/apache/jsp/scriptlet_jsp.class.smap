@@ -1,0 +1,18 @@
+SMAP
+scriptlet_jsp.java
+JSP
+*S JSP
+*F
++ 0 scriptlet.jsp
+scriptlet.jsp
+*L
+5,13:49
+18,3:12
+20:62
+21,2:63,3
+23,3:69
+26:72,3
+27:75
+28:76,3
+29,4:79
+*E
