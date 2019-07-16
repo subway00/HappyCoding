@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/work/Lab_09/web/WEB-INF/web.xml</file>
-            <file>file:/C:/work/Lab_09/web/EmployeeView.jsp</file>
-            <file>file:/C:/work/Lab_09/src/java/lab_09/Employee.java</file>
-            <file>file:/C:/work/Lab_09/src/java/lab_09/JdbcServletDeliver.java</file>
-            <file>file:/C:/work/Lab_09/src/java/lab_09/SelectAllServlet.java</file>
-            <file>file:/C:/work/Lab_09/nbproject/build-impl.xml</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
